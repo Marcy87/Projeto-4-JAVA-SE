@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <Pane prefHeight="400.0" prefWidth="404.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lbNome" layoutX="67.0" layoutY="60.0" text="Nome " />
+            <Label fx:id="lbCidade" layoutX="67.0" layoutY="97.0" text="Cidade" />
+            <Label fx:id="lbEstado" layoutX="66.0" layoutY="130.0" text="Estado" />
+            <TextField fx:id="tfNomeCliente" layoutX="114.0" layoutY="56.0" prefHeight="25.0" prefWidth="264.0" />
+            <TextField fx:id="tfCidadeCliente" layoutX="114.0" layoutY="93.0" prefHeight="25.0" prefWidth="264.0" />
+            <Button fx:id="btSalvarCliente" layoutX="114.0" layoutY="175.0" mnemonicParsing="false" onAction="#clickSalvarCliente" prefHeight="25.0" prefWidth="75.0" text="Salvar" />
+            <Button fx:id="btCancelarCliente" layoutX="202.0" layoutY="175.0" mnemonicParsing="false" onAction="#clickCancelarCliente" prefHeight="25.0" prefWidth="75.0" text="Cancelar" />
+            <ComboBox fx:id="cbEstadoCliente" layoutX="114.0" layoutY="126.0" prefHeight="25.0" prefWidth="65.0" />
+         </children>
+      </Pane>
+   </left>
+</BorderPane>
